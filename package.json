@@ -1,0 +1,21 @@
+{
+  "name": "diagnostico",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "@types/signale": "^1.4.7",
+    "dotenv": "^16.4.5",
+    "mongodb": "^6.6.0",
+    "signale": "^1.4.0"
+  }
+}
