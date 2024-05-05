@@ -14,8 +14,10 @@
   },
   "dependencies": {
     "@types/signale": "^1.4.7",
+    "@types/uuid": "^9.0.8",
     "dotenv": "^16.4.5",
     "mongodb": "^6.6.0",
-    "signale": "^1.4.0"
+    "signale": "^1.4.0",
+    "uuid": "^9.0.1"
   }
 }
