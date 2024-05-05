@@ -3,9 +3,9 @@ import morgan from 'morgan';
 import dotenv from 'dotenv';
 import path from 'path';
 import cors from 'cors';
-import { setupTutorEndpoints } from './school_management/infraestructure/endpoints/TutorEndpoints';
-import { setupSubjectEndpoints } from './school_management/infraestructure/endpoints/SubjectEndpoints';
-import { setupStudentEndpoints } from './school_management/infraestructure/endpoints/StudentEndpoints';
+import { setupTutorEndpoints } from './school/infraestructure/endpoints/TutorEndpoints';
+import { setupSubjectEndpoints } from './school/infraestructure/endpoints/SubjectEndpoints';
+import { setupStudentEndpoints } from './school/infraestructure/endpoints/StudentEndpoints';
 
 dotenv.config();
 
